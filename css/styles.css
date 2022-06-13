@@ -238,7 +238,7 @@ sup {
 }
 
 a {
-  color: #0d6efd;
+  color: black;
   text-decoration: underline;
 }
 a:hover {
@@ -684,6 +684,8 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .col {
@@ -11288,4 +11290,10 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+
+
+
+.gradiente1 {
+    background: linear-gradient(to bottom, rgb(90 90 90), rgb(0 0 0));
 }
